@@ -1,5 +1,5 @@
-def selection_sort(array)
-  n = array.length - 1
+def selection_sort(array) 
+ n = array.length - 1
   n.times do |i|
   min_index = i
   for j in (i + 1)..n
@@ -11,5 +11,4 @@ puts array
 end
 
 array = [10, 30, 27, 7, 33, 15, 40, 50]
-
 selection_sort(array)
