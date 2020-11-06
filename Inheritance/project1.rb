@@ -12,7 +12,7 @@ class Member
     "#{role} #{self.name} #{day_rate}"
   end
 end
-
+  
 class ProjectManager < Member
   def role
     "Project Manager"
